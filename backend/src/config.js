@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "HOPE COIN NFT";
-const description = "THIS NFT IS GENERATED FOR HOPE CODE";
+const namePrefix = "HopiumCatz NFT Collection";
+const description = "HopiumSwap's HopiumCatz Collection";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://www.hopiumswap.com/", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://hopiumcatz.com/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
