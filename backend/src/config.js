@@ -7,13 +7,13 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "HopiumSwap Cat warriors";
-const description = "Are You Ready For The Future Of Web3?";
-const baseUri = "https://ipfs.io/ipfs/QmfAp4CZWA8A5JGukxv7jS6mY336A6oKMWCa5hwn65P24E"; // This will be replaced automatically
+const namePrefix = "HOPE COIN NFT";
+const description = "THIS NFT IS GENERATED FOR HOPE CODE";
+const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://www.hopiumswap.com/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -45,25 +45,25 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'Polygon'; // only goerli, polygon, or ethereum
+const CHAIN = 'polygon'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'HopiumSwapNFT';
-const CONTRACT_SYMBOL = 'HOPENFT';
+const CONTRACT_NAME = 'HOPE COIN NFT';
+const CONTRACT_SYMBOL = 'HOPE';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x8e8F5d02D659f2Ac75066Ddfc4E1362Cff441dE1';
-const TREASURY_ADDRESS = '0x8e8F5d02D659f2Ac75066Ddfc4E1362Cff441dE1';
+const OWNER_ADDRESS = '0xfAF180f2F8B27f60cc5E23bf533B91e797bf2b09';
+const TREASURY_ADDRESS = '0xfAF180f2F8B27f60cc5E23bf533B91e797bf2b09';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 100; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2023-06-15T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2023-06-28T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 500; //x8e8F5d02D659f2Ac75066Ddfc4E1362Cff441dE1 Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x8e8F5d02D659f2Ac75066Ddfc4E1362Cff441dE1"; // Address that will receive the royalty
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const ROYALTY_ADDRESS = "0xfAF180f2F8B27f60cc5E23bf533B91e797bf2b09"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
@@ -74,8 +74,8 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which NFT will You Get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmfAp4CZWA8A5JGukxv7jS6mY336A6oKMWCa5hwn65P24E"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "HOPE COIN"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "ipfs://bafybeihxzj55emnw6hj56npe5o5diiwu476cw2cdeor2ueqr54jyq5s3hm"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
