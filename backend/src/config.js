@@ -48,7 +48,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'HOPE COIN NFT';
+const CONTRACT_NAME = 'HopiumCatz NFT';
 const CONTRACT_SYMBOL = 'HOPE';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xfAF180f2F8B27f60cc5E23bf533B91e797bf2b09';
@@ -74,7 +74,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "HOPE COIN"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "HopiumCatz Collection"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "ipfs://bafybeihxzj55emnw6hj56npe5o5diiwu476cw2cdeor2ueqr54jyq5s3hm"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
