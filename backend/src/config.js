@@ -4,7 +4,7 @@ const fs = require("fs");
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
 
-const network = NETWORK.eth;
+const network = NETWORK.goerli;
 
 // General metadata for Ethereum
 const namePrefix = "HopiumCatz NFT Collection";
