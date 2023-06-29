@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "HopiumCatz NFT Collection";
 const description = "HopiumSwap's HopiumCatz Collection";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://0x52496b3681Ef74cbCB85a8cad489101132D78f2d"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
