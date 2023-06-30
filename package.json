@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "generate": "^0.10.0",
+    "generate": "^0.14.0",
     "node_module": "^0.0.0"
   }
 }
