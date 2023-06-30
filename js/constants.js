@@ -1,9 +1,9 @@
-const contractAddress = "0xD6FBfC115E21f6586205c5C41C6006eaAf59BAf4"; // Replace with your own contract address
+const contractAddress = "0x8a1b2915df76eca0d97c76c389ac9dfadca101a9"; // Replace with your own contract address
 const chain = 'polygon'; // goerli, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the HOPE CAT NFT Project!!";
+const welcome_h1 = "Welcome to the HopiumCatz NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The HOPE CAT NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'The HopiumCatz NFT Project is a decentralized, open-source project that is part of the HopiumSwap exchange project. Ceck out our youtube channel!!!<a href="https://www.youtube.com/channel/UCtwwIjEFq-w2w5Ms5Ap9LuA"  target="_blank" rel="noopener noreferrer">HopiumCatz</a> YouTube channel.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
