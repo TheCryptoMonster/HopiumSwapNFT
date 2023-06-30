@@ -3,7 +3,7 @@ const chain = 'polygon'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the HopiumCatz NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The HopiumCatz NFT Project is a decentralized, open-source project that is part of the HopiumSwap exchange project. Ceck out our youtube channel!!!<a href="https://www.youtube.com/channel/UCtwwIjEFq-w2w5Ms5Ap9LuA"  target="_blank" rel="noopener noreferrer">HopiumCatz</a> YouTube channel.';
+const welcome_p = 'The HopiumCatz NFT Project is a decentralized, open-source project that is part of the HopiumSwap exchange project. Check out our youtube channel!!!<a href="https://www.youtube.com/channel/UCtwwIjEFq-w2w5Ms5Ap9LuA"  target="_blank" rel="noopener noreferrer">HopiumCatz</a> YouTube channel.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
