@@ -1,7 +1,7 @@
 const contractAddress = "0x3eAF9990d2b1BD36796B32774dc5658387438e03"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "Welcome to the HopiumCatz NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'The HopiumCatz NFT Project is a decentralized, open-source project that is part of the HopiumSwap exchange project. Check out our youtube channel!!!<a href="https://www.youtube.com/channel/UCtwwIjEFq-w2w5Ms5Ap9LuA"  target="_blank" rel="noopener noreferrer">HopiumCatz</a> YouTube channel.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
